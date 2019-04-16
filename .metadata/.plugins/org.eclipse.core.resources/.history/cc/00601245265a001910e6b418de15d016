@@ -1,0 +1,13 @@
+package com.goomo;
+
+@Configuration
+public class AppConfig {
+   @Bean
+   public Foo foo() {
+      return new Foo(bar());
+   }
+   @Bean
+   public Bar bar() {
+      return new Bar();
+   }
+}

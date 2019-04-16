@@ -1,0 +1,6 @@
+package com.goomo;
+
+public class Profile {
+	private Student student;
+
+}

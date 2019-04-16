@@ -1,0 +1,17 @@
+package com.goomo.Client;
+
+import javax.rmi.CORBA.Stub;
+import com.goomo.Student;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.goomo.Student;
+
+public class MainRunner {
+	public static void main(String[] args) {
+		ApplicationContext context=new ClassPathXmlApplicationContext("Beans.xml");
+		Object bean = context.getBean("student");
+		(Student)bean;
+	}
+
+}

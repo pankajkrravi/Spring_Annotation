@@ -1,0 +1,11 @@
+package com.goomo;
+
+public class SpellChecker {
+
+	public void checkspelling() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

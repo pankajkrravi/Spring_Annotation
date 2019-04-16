@@ -1,0 +1,8 @@
+package com.goomo;
+
+public class SpellChecker {
+	public SpellChecker() {
+		System.out.println("Inside SpellChecker Constructor");
+	}
+
+}

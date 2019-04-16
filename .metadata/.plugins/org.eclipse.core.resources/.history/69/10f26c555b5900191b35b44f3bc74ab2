@@ -1,0 +1,5 @@
+package com.goomo;
+
+public class TextEditor {
+  private SpellChecker spellchecker;
+}

@@ -1,0 +1,6 @@
+package com.goomo;
+
+public class PostConstruct_PreConstruct {
+   private String message;
+   
+}

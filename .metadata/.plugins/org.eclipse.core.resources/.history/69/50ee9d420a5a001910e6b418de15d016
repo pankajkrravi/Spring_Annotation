@@ -1,0 +1,10 @@
+package com.goomo;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Congiguration_Annotatiom {
+	public void hello() {
+
+	}
+}

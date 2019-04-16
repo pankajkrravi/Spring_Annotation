@@ -1,0 +1,16 @@
+package com.goomo;
+
+import javax.annotation.Resource;
+
+public class TextEditor {
+	private SpellChecker spellchecker;
+
+	public SpellChecker getSpellchecker() {
+		return spellchecker;
+	}
+	@Resource(name="spellchecker")
+	public void setSpellchecker(SpellChecker spellchecker) {
+		this.spellchecker = spellchecker;
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.goomo;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+public class TextEditor {
+	   private SpellChecker spellChecker;
+
+	   public TextEditor(SpellChecker spellChecker){
+	      System.out.println("Inside TextEditor constructor." );
+	      this.spellChecker = spellChecker;
+	   }
+	   public void spellCheck(){
+	      spellChecker.checkSpelling();
+	   }
+	}

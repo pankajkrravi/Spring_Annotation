@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Bean.xml&apos; to &apos;Post_Pre_Construct/src&apos;&#x0A;- Original project: &apos;Qualifier_Annot&apos;&#x0A;- Destination element: &apos;Post_Pre_Construct/src&apos;&#x0A;- Original element: &apos;Bean.xml&apos;" description="Copy file" destination="=Post_Pre_Construct/src" element1="src/Bean.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1554657757455" units="0" version="1.0"/>
+</session>
